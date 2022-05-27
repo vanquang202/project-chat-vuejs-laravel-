@@ -1,0 +1,992 @@
+/*!
+  * Bootstrap v5.1.3 (https://getbootstrap.com/)
+  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+
+/*!
+  * vue-router v3.5.3
+  * (c) 2021 Evan You
+  * @license MIT
+  */
+
+/*!
+ * Pusher JavaScript Library v7.0.3
+ * https://pusher.com/
+ *
+ * Copyright 2020, Pusher
+ * Released under the MIT licence.
+ */
+
+/*!
+ * Vue.js v2.6.14
+ * (c) 2014-2021 Evan You
+ * Released under the MIT License.
+ */
+
+/*!
+ * vuex v3.6.2
+ * (c) 2021 Evan You
+ * @license MIT
+ */
+
+/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Chat.vue?vue&type=style&index=0&id=0444adc2&scoped=true&lang=css& */
+
+/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+
+/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */
+
+/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Chat.vue?vue&type=script&lang=js& */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ContentChat.vue?vue&type=script&lang=js& */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Main.vue?vue&type=script&lang=js& */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Profile.vue?vue&type=script&lang=js& */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ProfileYour.vue?vue&type=script&lang=js& */
+
+/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Chat.vue?vue&type=style&index=0&id=0444adc2&scoped=true&lang=css& */
+
+/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Chat.vue?vue&type=template&id=0444adc2&scoped=true& */
+
+/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ContentChat.vue?vue&type=template&id=6f5f110c&scoped=true& */
+
+/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Main.vue?vue&type=template&id=b09ffa00&scoped=true& */
+
+/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Profile.vue?vue&type=template&id=02845e58&scoped=true& */
+
+/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ProfileYour.vue?vue&type=template&id=4f53d4b2&scoped=true& */
+
+/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=script&lang=js& */
+
+/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=template&id=299e239e& */
+
+/*! ../../../../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../../../../public/js/app */
+
+/*! ../cancel/isCancel */
+
+/*! ../core/buildFullPath */
+
+/*! ../core/createError */
+
+/*! ../defaults */
+
+/*! ../dom-utils/contains.js */
+
+/*! ../dom-utils/getBoundingClientRect.js */
+
+/*! ../dom-utils/getClippingRect.js */
+
+/*! ../dom-utils/getComputedStyle.js */
+
+/*! ../dom-utils/getDocumentElement.js */
+
+/*! ../dom-utils/getLayoutRect.js */
+
+/*! ../dom-utils/getNodeName.js */
+
+/*! ../dom-utils/getOffsetParent.js */
+
+/*! ../dom-utils/getWindow.js */
+
+/*! ../dom-utils/instanceOf.js */
+
+/*! ../enums.js */
+
+/*! ../helpers/buildURL */
+
+/*! ../helpers/combineURLs */
+
+/*! ../helpers/isAbsoluteURL */
+
+/*! ../helpers/validator */
+
+/*! ../utils */
+
+/*! ../utils/computeAutoPlacement.js */
+
+/*! ../utils/computeOffsets.js */
+
+/*! ../utils/detectOverflow.js */
+
+/*! ../utils/expandToHashMap.js */
+
+/*! ../utils/getAltAxis.js */
+
+/*! ../utils/getBasePlacement.js */
+
+/*! ../utils/getFreshSideObject.js */
+
+/*! ../utils/getMainAxisFromPlacement.js */
+
+/*! ../utils/getOppositePlacement.js */
+
+/*! ../utils/getOppositeVariationPlacement.js */
+
+/*! ../utils/getVariation.js */
+
+/*! ../utils/math.js */
+
+/*! ../utils/mergePaddingObject.js */
+
+/*! ../utils/rectToClientRect.js */
+
+/*! ../utils/within.js */
+
+/*! ../views/Profile/Profile */
+
+/*! ../views/Profile/ProfileYour */
+
+/*! ../views/main/Chat */
+
+/*! ../views/main/ContentChat */
+
+/*! ../views/main/Main */
+
+/*! ./../../package.json */
+
+/*! ./../core/settle */
+
+/*! ./../defaults */
+
+/*! ./../helpers/buildURL */
+
+/*! ./../helpers/cookies */
+
+/*! ./../helpers/isURLSameOrigin */
+
+/*! ./../helpers/parseHeaders */
+
+/*! ./../utils */
+
+/*! ./Cancel */
+
+/*! ./Chat.vue?vue&type=script&lang=js& */
+
+/*! ./Chat.vue?vue&type=style&index=0&id=0444adc2&scoped=true&lang=css& */
+
+/*! ./Chat.vue?vue&type=template&id=0444adc2&scoped=true& */
+
+/*! ./ContentChat.vue?vue&type=script&lang=js& */
+
+/*! ./ContentChat.vue?vue&type=template&id=6f5f110c&scoped=true& */
+
+/*! ./ExampleComponent.vue?vue&type=script&lang=js& */
+
+/*! ./ExampleComponent.vue?vue&type=template&id=299e239e& */
+
+/*! ./InterceptorManager */
+
+/*! ./Main.vue?vue&type=script&lang=js& */
+
+/*! ./Main.vue?vue&type=template&id=b09ffa00&scoped=true& */
+
+/*! ./Profile.vue?vue&type=script&lang=js& */
+
+/*! ./Profile.vue?vue&type=template&id=02845e58&scoped=true& */
+
+/*! ./ProfileYour.vue?vue&type=script&lang=js& */
+
+/*! ./ProfileYour.vue?vue&type=template&id=4f53d4b2&scoped=true& */
+
+/*! ./actions.js */
+
+/*! ./adapters/xhr */
+
+/*! ./applyStyles.js */
+
+/*! ./arrow.js */
+
+/*! ./bootstrap */
+
+/*! ./cancel/Cancel */
+
+/*! ./cancel/CancelToken */
+
+/*! ./cancel/isCancel */
+
+/*! ./components/ExampleComponent */
+
+/*! ./computeOffsets.js */
+
+/*! ./computeStyles.js */
+
+/*! ./contains.js */
+
+/*! ./core/Axios */
+
+/*! ./core/enhanceError */
+
+/*! ./core/mergeConfig */
+
+/*! ./createError */
+
+/*! ./createPopper.js */
+
+/*! ./defaults */
+
+/*! ./detectOverflow.js */
+
+/*! ./dispatchRequest */
+
+/*! ./dom-utils/getCompositeRect.js */
+
+/*! ./dom-utils/getComputedStyle.js */
+
+/*! ./dom-utils/getLayoutRect.js */
+
+/*! ./dom-utils/getOffsetParent.js */
+
+/*! ./dom-utils/instanceOf.js */
+
+/*! ./dom-utils/listScrollParents.js */
+
+/*! ./enhanceError */
+
+/*! ./enums.js */
+
+/*! ./eventListeners.js */
+
+/*! ./expandToHashMap.js */
+
+/*! ./flip.js */
+
+/*! ./format.js */
+
+/*! ./getBasePlacement.js */
+
+/*! ./getBoundingClientRect.js */
+
+/*! ./getComputedStyle.js */
+
+/*! ./getDocumentElement.js */
+
+/*! ./getDocumentRect.js */
+
+/*! ./getFreshSideObject.js */
+
+/*! ./getHTMLElementScroll.js */
+
+/*! ./getMainAxisFromPlacement.js */
+
+/*! ./getNodeName.js */
+
+/*! ./getNodeScroll.js */
+
+/*! ./getOffsetParent.js */
+
+/*! ./getParentNode.js */
+
+/*! ./getScrollParent.js */
+
+/*! ./getVariation.js */
+
+/*! ./getViewportRect.js */
+
+/*! ./getWindow.js */
+
+/*! ./getWindowScroll.js */
+
+/*! ./getWindowScrollBarX.js */
+
+/*! ./getters.js */
+
+/*! ./helpers/bind */
+
+/*! ./helpers/isAxiosError */
+
+/*! ./helpers/normalizeHeaderName */
+
+/*! ./helpers/spread */
+
+/*! ./hide.js */
+
+/*! ./instanceOf.js */
+
+/*! ./isScrollParent.js */
+
+/*! ./isTableElement.js */
+
+/*! ./lib/axios */
+
+/*! ./listScrollParents.js */
+
+/*! ./math.js */
+
+/*! ./mergeConfig */
+
+/*! ./mergePaddingObject.js */
+
+/*! ./modifiers/applyStyles.js */
+
+/*! ./modifiers/arrow.js */
+
+/*! ./modifiers/computeStyles.js */
+
+/*! ./modifiers/eventListeners.js */
+
+/*! ./modifiers/flip.js */
+
+/*! ./modifiers/hide.js */
+
+/*! ./modifiers/index.js */
+
+/*! ./modifiers/offset.js */
+
+/*! ./modifiers/popperOffsets.js */
+
+/*! ./modifiers/preventOverflow.js */
+
+/*! ./mutations.js */
+
+/*! ./offset.js */
+
+/*! ./popper-lite.js */
+
+/*! ./popper.js */
+
+/*! ./popperOffsets.js */
+
+/*! ./preventOverflow.js */
+
+/*! ./rectToClientRect.js */
+
+/*! ./routes */
+
+/*! ./state.js */
+
+/*! ./store */
+
+/*! ./transformData */
+
+/*! ./utils */
+
+/*! ./utils/debounce.js */
+
+/*! ./utils/detectOverflow.js */
+
+/*! ./utils/getBasePlacement.js */
+
+/*! ./utils/mergeByName.js */
+
+/*! ./utils/orderModifiers.js */
+
+/*! ./utils/uniqueBy.js */
+
+/*! ./utils/validateModifiers.js */
+
+/*! @babel/runtime/regenerator */
+
+/*! @popperjs/core */
+
+/*! axios */
+
+/*! bootstrap */
+
+/*! laravel-echo */
+
+/*! lodash */
+
+/*! process/browser.js */
+
+/*! pusher-js */
+
+/*! regenerator-runtime */
+
+/*! vue */
+
+/*! vue-axios/dist/vue-axios.common.min */
+
+/*! vue-router */
+
+/*! vuex */
+
+/*!**************************!*\
+  !*** ./public/js/app.js ***!
+  \**************************/
+
+/*!*****************************!*\
+  !*** ./resources/js/app.js ***!
+  \*****************************/
+
+/*!*********************************!*\
+  !*** ./resources/sass/app.scss ***!
+  \*********************************/
+
+/*!***********************************!*\
+  !*** ./resources/js/bootstrap.js ***!
+  \***********************************/
+
+/*!*************************************!*\
+  !*** ./node_modules/axios/index.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./resources/js/store/index.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./resources/js/store/state.js ***!
+  \*************************************/
+
+/*!**************************************!*\
+  !*** ./resources/js/routes/index.js ***!
+  \**************************************/
+
+/*!***************************************!*\
+  !*** ./node_modules/lodash/lodash.js ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./resources/js/store/actions.js ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./resources/js/store/getters.js ***!
+  \***************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/axios/lib/axios.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/axios/lib/utils.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/axios/package.json ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./resources/js/store/mutations.js ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/vue/dist/vue.esm.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./resources/js/views/main/Chat.vue ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./resources/js/views/main/Main.vue ***!
+  \******************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/axios/lib/defaults.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/vuex/dist/vuex.esm.js ***!
+  \********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/axios/lib/core/Axios.js ***!
+  \**********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/axios/lib/core/settle.js ***!
+  \***********************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/axios/lib/adapters/xhr.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/bind.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/laravel-echo/dist/echo.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./resources/js/views/Profile/Profile.vue ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/axios/lib/cancel/Cancel.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./resources/js/views/main/ContentChat.vue ***!
+  \*************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/enums.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/index.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/spread.js ***!
+  \**************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/popper.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/axios/lib/cancel/isCancel.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/cookies.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/pusher-js/dist/web/pusher.js ***!
+  \***************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/core/createError.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/core/mergeConfig.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/buildURL.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./resources/js/views/Profile/ProfileYour.vue ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/axios/lib/core/enhanceError.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/validator.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/regenerator-runtime/runtime.js ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/axios/lib/cancel/CancelToken.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/axios/lib/core/buildFullPath.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/axios/lib/core/transformData.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./resources/js/components/ExampleComponent.vue ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/math.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/combineURLs.js ***!
+  \*******************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/popper-lite.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/axios/lib/core/dispatchRequest.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/isAxiosError.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/vue-router/dist/vue-router.esm.js ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/createPopper.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/format.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/within.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/bootstrap/dist/js/bootstrap.esm.js ***!
+  \*********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/flip.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/hide.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/debounce.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/uniqueBy.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/axios/lib/core/InterceptorManager.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/arrow.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/index.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/offset.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getAltAxis.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/vue-axios/dist/vue-axios.common.min.js ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/mergeByName.js ***!
+  \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/contains.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getVariation.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \***************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getWindow.js ***!
+  \****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/instanceOf.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/computeOffsets.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/detectOverflow.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/orderModifiers.js ***!
+  \*****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getNodeName.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/applyStyles.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/expandToHashMap.js ***!
+  \******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getBasePlacement.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/rectToClientRect.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./resources/js/views/main/Chat.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./resources/js/views/main/Main.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getParentNode.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/computeStyles.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/popperOffsets.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/validateModifiers.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/isTableElement.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/eventListeners.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getFreshSideObject.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/mergePaddingObject.js ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/modifiers/preventOverflow.js ***!
+  \**********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getOppositePlacement.js ***!
+  \***********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js ***!
+  \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./resources/js/views/Profile/Profile.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./resources/js/views/main/ContentChat.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./resources/js/views/Profile/ProfileYour.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js ***!
+  \********************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./resources/js/views/main/Chat.vue?vue&type=template&id=0444adc2&scoped=true& ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./resources/js/views/main/Main.vue?vue&type=template&id=b09ffa00&scoped=true& ***!
+  \*************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/views/Profile/Profile.vue?vue&type=template&id=02845e58&scoped=true& ***!
+  \*******************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./resources/js/views/main/ContentChat.vue?vue&type=template&id=6f5f110c&scoped=true& ***!
+  \********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/views/Profile/ProfileYour.vue?vue&type=template&id=4f53d4b2&scoped=true& ***!
+  \***********************************************************************************************/
+
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/views/main/Chat.vue?vue&type=style&index=0&id=0444adc2&scoped=true&lang=css& ***!
+  \***************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/main/Chat.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/main/Main.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Profile/Profile.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/main/ContentChat.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Profile/ProfileYour.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/main/Chat.vue?vue&type=template&id=0444adc2&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/main/Main.vue?vue&type=template&id=b09ffa00&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Profile/Profile.vue?vue&type=template&id=02845e58&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/main/ContentChat.vue?vue&type=template&id=6f5f110c&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Profile/ProfileYour.vue?vue&type=template&id=4f53d4b2&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/main/Chat.vue?vue&type=style&index=0&id=0444adc2&scoped=true&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/main/Chat.vue?vue&type=style&index=0&id=0444adc2&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */

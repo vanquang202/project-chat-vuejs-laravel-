@@ -1,0 +1,13 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/Chat.js": "/js/Chat.js",
+    "/js/ContentChat.js": "/js/ContentChat.js",
+    "/js/ChatUser.js": "/js/ChatUser.js",
+    "/js/ChatRoom.js": "/js/ChatRoom.js",
+    "/js/Profile.js": "/js/Profile.js",
+    "/js/ProfileViewYou.js": "/js/ProfileViewYou.js",
+    "/js/Community.js": "/js/Community.js",
+    "/js/Storage.js": "/js/Storage.js",
+    "/js/Error.js": "/js/Error.js",
+    "/css/app.css": "/css/app.css"
+}
